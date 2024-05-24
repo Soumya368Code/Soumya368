@@ -1,0 +1,142 @@
+.header
+{
+  background-color:white;
+  width:1380px;
+  height:92px;
+  z-index: 100;
+  position: fixed;
+}
+
+
+.compact-header
+
+{
+  height:92px;
+  display:flex;
+  flex:1;
+  position:fixed;
+  width:1170px;
+  justify-content: center;
+  margin-left: 180px;
+  
+
+ 
+}
+
+.paytm-logo
+{
+  display:flex;
+  width:180px;
+  align-items: center;
+  
+}
+.paytm-logo img
+{
+  width:170px;
+}
+.menu-section
+{
+  width:870px;
+  display:flex;
+  flex:1;
+  align-items: center;
+  
+ }
+.sign-up-section
+{
+  display:flex;
+  align-items: center;
+  width: 180px;
+  justify-content:left;
+ 
+
+}
+.sign-up-section div
+{
+  height:38px;
+  width:114px;
+  border-radius:30px;
+  font-size:15px;
+  display: flex;
+  align-items: center;
+  position:relative;
+  font-weight:700;
+  padding:0px;
+  border:none;
+  background-color: rgb(0, 186, 242);
+  
+
+}
+
+.menu
+{
+  padding: 12px;
+  font-weight:600;
+  font-size: 17px;
+  position: relative;
+  
+}
+.menu:hover
+{
+  background-color: rgba(128,128,128,0.1);
+}
+.sign-up-section img
+{
+  height:34px;
+  width:34px;
+  position: absolute;
+  margin-left:10px;
+  right:0;
+ 
+}
+.sign-up-section span
+{
+  position: absolute;
+  left:22px;
+  font:15px;
+  font-weight:400;
+  color:white;
+}
+.dropdown-content
+{
+  display:none;
+  position:absolute;
+  width:180px;
+  border:solid;
+  z-index: 2000;
+  background-color: white;
+  top:45px;
+  border-width: 1px;
+  border-color: rgb(207, 205, 205);
+  border-radius: 5px;
+}
+.menu:hover .dropdown-content
+{
+  display:block;
+
+}
+.dropdown-content div
+{
+  width:160px;
+  height:30px;
+  display:flex;
+  align-items: center;
+  padding-left:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.dropdown-content div:hover
+{
+  background-color:rgba(0,0,0,0.1);
+}
+.dropdown-content a
+{
+  font-size: 13px;
+  color:black;
+  text-decoration:none;
+}
+.sign-up-section:hover .inner-div
+{
+ background-color: rgb(15, 74, 138);
+}
